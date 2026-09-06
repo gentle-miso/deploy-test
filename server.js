@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 // 테스트 라우트
 app.get('/test', (req, res) => {
   const sampleData = {
-    title: '테스트 웹페이지_수정본',
+    title: '테스트 웹페이지_수정본_v2',
     serverTime: new Date().toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' }),
     status: '정상 작동 중',
     features: ['EJS 템플릿 연동', '반응형 디자인 UI', '무료 호스팅 테스트']
